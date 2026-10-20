@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Springboard — launch into your career</title>
+<meta name="description" content="Springboard matches students with local small businesses, startups and nonprofits that need help on short-term projects. Tell us what you think in our short survey.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..700,0..100&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Springboard home">
+    <svg viewBox="0 0 120 120" class="brand-mark" aria-hidden="true">
+      <text x="62" y="44" transform="rotate(-8 62 44)" class="mark-s">S</text>
+      <rect x="22" y="52" width="76" height="11" rx="5.5" class="fill-coral"></rect>
+      <polyline points="60,64 82,72 38,81 82,90 38,99 60,105" class="stroke-navy" stroke-width="7"></polyline>
+      <rect x="16" y="104" width="88" height="11" rx="5.5" class="fill-navy"></rect>
+    </svg>
+    <span class="brand-name">springboard</span>
+  </a>
+  <nav class="site-nav" aria-label="Page sections">
+    <a href="#how">How it works</a>
+    <a href="#projects">Example projects</a>
+  </nav>
+  <a class="btn btn-navy survey-link" href="#survey">Take the survey</a>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="logo-stage">
+      <svg viewBox="0 0 760 340" class="lockup" role="img" aria-label="springboard — launch into your career.">
+        <defs><path id="arc" d="M 200 214 Q 450 0 744 160"></path></defs>
+        <g class="launch">
+          <text class="wordmark"><textPath href="#arc" startOffset="16">springboard</textPath></text>
+        </g>
+        <text x="560" y="205" class="tagline">launch into your career.</text>
+        <g class="spring-assembly">
+          <g class="spring">
+            <polyline points="135,250 178,261 92,274 178,287 92,300 135,310" class="stroke-navy" stroke-width="11"></polyline>
+          </g>
+          <rect x="60" y="232" width="150" height="16" rx="8" class="board fill-coral"></rect>
+          <rect x="48" y="308" width="174" height="16" rx="8" class="fill-navy"></rect>
+          <!-- generous invisible hit area so the board is easy to hover or tap -->
+          <rect x="30" y="200" width="210" height="135" class="hit" tabindex="0" role="button" aria-label="Bounce the springboard"></rect>
+        </g>
+      </svg>
+      <p class="hint" aria-hidden="true">psst — try the board</p>
+    </div>
+
+    <p class="lede">Springboard matches high school and college students with local small businesses, startups and nonprofits that need help on short-term projects — based on what the work needs and each student's degree, interests and skills.</p>
+
+    <div class="cta-row">
+      <a class="btn btn-coral survey-link" href="#survey">Take the survey</a>
+      <a class="btn btn-outline" href="#how">How it works</a>
+    </div>
+  </section>
+
+  <section id="how" class="section">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li class="step">
+        <span class="step-num">1</span>
+        <h3>Tell us about you</h3>
+        <p>Students share their degree, interests and skills. Organizations share what they need done.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">2</span>
+        <h3>Get matched</h3>
+        <p>We pair students with businesses, startups and nonprofits in the same college town.</p>
+      </li>
+      <li class="step">
+        <span class="step-num step-num-coral">3</span>
+        <h3>Launch</h3>
+        <p>Students get hands-on experience. Organizations get meaningful work done — no full internship program needed.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="tray">
+      <div class="tray-head">
+        <h2>Example projects</h2>
+        <span class="muted">Marketing · data analysis · graphic design · social media · business research · AI · website support</span>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-top"><span class="tag tag-coral">Social media</span><span class="muted small">~20 hrs · In person</span></div>
+          <h3>Plan a month of Instagram posts</h3>
+          <p class="small">Local café · Small business</p>
+          <p class="match"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"></path></svg>Matched on Marketing · Canva</p>
+        </article>
+        <article class="card">
+          <div class="card-top"><span class="tag tag-ochre">Data analysis</span><span class="muted small">~15 hrs · Remote</span></div>
+          <h3>Clean up and chart our donor data</h3>
+          <p class="small">Food bank · Nonprofit</p>
+          <p class="match"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"></path></svg>Matched on Statistics · Excel</p>
+        </article>
+        <article class="card">
+          <div class="card-top"><span class="tag tag-navy">Website support</span><span class="muted small">~25 hrs · Hybrid</span></div>
+          <h3>Refresh our landing page copy</h3>
+          <p class="small">App startup · Startup</p>
+          <p class="match"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"></path></svg>Matched on Web design · Writing</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="survey" class="survey">
+    <h2>Tell us what you think</h2>
+    <p>Springboard is a student class project, and we're testing the idea. Whether you're a student, a business owner or just curious, your answers help us decide what to build.</p>
+    <a class="btn btn-coral btn-big survey-link" href="#survey">Take the survey</a>
+    <p class="survey-note" id="survey-note" hidden>The survey link is coming soon.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Springboard is a student class project and not a live service yet.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
